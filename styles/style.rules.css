@@ -1,0 +1,120 @@
+body {
+  background-color: #0c2461;
+}
+
+header {
+  color: white;
+  padding-bottom: 50px;
+  border-radius: 20px;
+}
+
+span {
+  color: burlywood;
+}
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  font-size: 300%;
+}
+
+.colorful {
+  width: 600px;
+  height: 300px;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+}
+
+.container > div {
+  margin: 20px;
+  border: 1px solid wheat;
+  width: 1350px;
+  border-radius: 20px;
+  padding: 10px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container > div:hover {
+  transform: translateY(-10px);
+}
+
+.pitch,
+.batting,
+.runs,
+.batsman {
+  display: flex;
+}
+
+.pitch > p {
+  padding: 50px;
+}
+
+.batting > p {
+  padding: 50px;
+}
+
+.runs > p {
+  padding: 50px;
+}
+
+.batsman > p {
+  padding: 50px;
+}
+
+.pitch > img,
+.batting > img,
+.runs > img {
+  width: 450px;
+  height: 300px;
+}
+
+.batsman > img {
+  width: 450px;
+  height: 320px;
+}
+
+main {
+  background-color: #fff;
+  padding-left: 75px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 25px;
+}
+
+.basic {
+  font-size: 200%;
+}
+
+p,
+ul {
+  max-width: 1200px;
+  font-size: 100%;
+}
+
+footer {
+  padding: 50px;
+  font-size: 30px;
+  background-color: #0c2461;
+  border-radius: 20px;
+  color: aliceblue;
+  padding-left: 150px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(76, 205, 132);
+}
+
+.back {
+  text-align: center;
+  color: rgb(255, 0, 0);
+}
+
+button {
+  background-color: aqua;
+  border-radius: 10px;
+  padding: 10px;
+}

@@ -1,0 +1,46 @@
+body {
+  background-color: #0c2461;
+}
+
+header {
+  text-align: center;
+  color: #fff;
+}
+
+.last {
+  padding-bottom: 10px;
+}
+
+span {
+  color: burlywood;
+}
+
+main {
+  background-color: #fff;
+  text-align: center;
+}
+
+footer {
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+a {
+  color: #ffc107;
+  text-decoration: none;
+}
+
+.media:hover {
+  font-size: 25px;
+}
+
+button {
+  background-color: aqua;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+button > .home {
+  color: red;
+}
