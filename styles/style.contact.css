@@ -20,6 +20,23 @@ main {
   text-align: center;
 }
 
+.heading {
+  width: 250px;
+  position: relative;
+  left: 550px;
+  font-size: 125%;
+}
+
+.container {
+  display: flex;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
 footer {
   color: white;
   text-align: center;

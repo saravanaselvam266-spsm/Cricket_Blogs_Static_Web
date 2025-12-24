@@ -8,6 +8,23 @@ header {
   border-radius: 20px;
 }
 
+.heading {
+  width: 460px;
+  position: relative;
+  left: 450px;
+  font-size: 125%;
+}
+
+.containers {
+  display: flex;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
 span {
   color: burlywood;
 }
@@ -15,7 +32,8 @@ span {
 h1 {
   text-align: center;
   padding: 20px;
-  font-size: 300%;
+  font-size: 250%;
+  /* width: 300px; */
 }
 
 .colorful {

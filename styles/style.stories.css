@@ -8,6 +8,23 @@ header {
   border-radius: 20px;
 }
 
+.heading {
+  width: 760px;
+  position: relative;
+  left: 300px;
+  font-size: 125%;
+}
+
+.containers {
+  display: flex;
+}
+
+.logo {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+}
+
 span {
   color: burlywood;
 }
