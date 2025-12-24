@@ -90,3 +90,9 @@ footer {
 .footer-links > a {
   color: white;
 }
+
+.footer-links a:hover{
+  color: sandybrown;
+  font-size: 20px;
+
+}
