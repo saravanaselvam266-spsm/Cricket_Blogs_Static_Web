@@ -135,3 +135,134 @@ button {
   border-radius: 10px;
   padding: 10px;
 }
+
+/* =========================
+   Mobile Responsive Styles
+   ========================= */
+@media (max-width: 768px) {
+
+  /* Header */
+  .containers {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .logo {
+    width: 70px;
+    height: auto;
+  }
+
+  .heading {
+    width: auto;
+    left: 0;
+  }
+
+  .heading h1 {
+    font-size: 24px;
+    padding: 10px;
+  }
+
+  .dhoni-sachin {
+    width: 100%;
+    height: auto;
+    margin-top: 10px;
+    border-radius: 15px;
+  }
+
+  .container > div {
+    margin: 20px;
+    border: 1px solid wheat;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  /* Main */
+  main {
+    padding: 15px;
+  }
+
+  .container {
+    padding: 0;
+  }
+
+  h2 {
+    font-size: 22px;
+    text-align: center;
+  }
+
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .para {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+    padding: 0 5px;
+  }
+
+  /* Sections */
+  .history,
+  .last,
+  .sachin,
+  .dhoni {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .history img,
+  .last img,
+  .sachin img,
+  .dhoni img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+  }
+
+  .history p,
+  .last p,
+  .sachin p,
+  .dhoni p {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 0 5px;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 20px;
+  }
+
+  footer h3 {
+    font-size: 20px;
+  }
+
+  footer p {
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  button {
+    margin-top: 10px;
+    padding: 10px 15px;
+  }
+
+  .back {
+    font-size: 14px;
+    text-decoration: none;
+  }
+}
+

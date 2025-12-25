@@ -91,8 +91,101 @@ footer {
   color: white;
 }
 
-.footer-links a:hover{
+.footer-links a:hover {
   color: sandybrown;
   font-size: 20px;
+}
 
+@media (max-width: 768px) {
+  /* Header */
+  header .container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo {
+    width: 70px;
+    height: auto;
+    display: flex;
+    align-items: left;
+    text-align: left;
+  }
+
+  .heading {
+    width: 160px;
+    left: 5px;
+  }
+
+  .title {
+    font-size: 26px;
+  }
+
+
+
+  .list {
+    width: 80px;
+    margin-left: 90px;
+  }
+
+  .match {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Navigation */
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  nav ul a {
+    text-align: center;
+    margin: 5px 0;
+  }
+
+  .list {
+    font-size: 18px;
+  }
+
+  /* Main Content */
+  main ul {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+  }
+
+  main li {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+
+  .cricketer {
+    width: 90%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  main p {
+    font-size: 15px;
+    /* line-height: ; */
+    padding: 0 10px;
+    width: 290px;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+  }
+
+  .footer-links a {
+    display: inline-block;
+    margin: 5px;
+  }
+
+  footer h1 {
+    font-size: 22px;
+  }
 }

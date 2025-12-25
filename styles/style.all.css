@@ -8,7 +8,7 @@ header {
   border-radius: 20px;
 }
 
-.heading {
+.headings {
   width: 560px;
   position: relative;
   left: 400px;
@@ -149,4 +149,127 @@ button {
   background-color: aqua;
   border-radius: 10px;
   padding: 10px;
+}
+
+/* =========================
+   Mobile Responsive Styles
+   ========================= */
+@media (max-width: 768px) {
+  /* Header */
+  .containers {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .logo {
+    width: 70px;
+    height: auto;
+  }
+
+  .headings {
+    font-size: 13px;
+    width: 560px;
+    margin-left: 10px;
+    left: 1px;
+  }
+
+  .old-crick {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Main Container */
+  .container {
+    padding: 0;
+  }
+
+  .container > div {
+    margin: 20px;
+    border: 1px solid wheat;
+    width: 200px;
+    border-radius: 20px;
+    padding: 10px;
+    background: white;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+
+  .heading {
+    font-size: 24px;
+    text-align: center;
+  }
+
+  .field > img {
+    margin-right: 50px;
+  }
+  main {
+    padding: 15px;
+  }
+  .para {
+    font-size: 15px;
+    line-height: 1.6;
+    text-align: justify;
+  }
+
+  /* Sections */
+  .game,
+  .team,
+  .field,
+  .score,
+  .forms {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 25px;
+  }
+
+  .game img,
+  .team img,
+  .field img,
+  .score img,
+  .forms img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    margin-bottom: 10px;
+  }
+
+  .game p,
+  .team p,
+  .field p,
+  .score p,
+  .forms p {
+    font-size: 15px;
+    line-height: 1.6;
+    padding: 0 5px;
+  }
+
+  /* Headings */
+  h3 {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+  }
+
+  footer p {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+
+  footer button {
+    margin-top: 10px;
+    padding: 10px 15px;
+  }
+
+  .back {
+    font-size: 14px;
+    text-decoration: none;
+  }
 }
